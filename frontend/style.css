@@ -45,3 +45,9 @@ button {
 .fox{
     width:150px;
 }
+
+#word{
+    font-size: 120px;
+    margin: 20px 0;
+    text-align: center;
+}
