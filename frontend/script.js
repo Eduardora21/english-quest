@@ -14,16 +14,27 @@ levels.forEach((level, index) => {
     });
 });
 
+
 const answers = document.querySelectorAll(".answer");
 const result = document.getElementById("result");
+
+let score = 0;
+const scoreDisplay = document.getElementById("score");
 
 answers.forEach((btn) => {
     btn.addEventListener("click", () => {
 
         if (btn.textContent === "Apple") {
+
+            score += 10;
+            scoreDisplay.textContent = "Score: " + score;
+
             result.textContent = "Correct! You earned 10 points!";
+
         } else {
+
             result.textContent = "Wrong answer. Try again!";
+
         }
 
     });
