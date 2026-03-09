@@ -26,3 +26,14 @@ button {
     font-size: 16px;
 }
 
+.answers{
+    margin-top:20px;
+}
+
+.answer{
+    display:block;
+    margin:10px auto;
+    padding:12px;
+    width:200px;
+    font-size:16px;
+}
