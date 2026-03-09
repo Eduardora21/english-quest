@@ -37,3 +37,11 @@ button {
     width:200px;
     font-size:16px;
 }
+
+.fox-container{
+    margin-top:20px;
+}
+
+.fox{
+    width:150px;
+}
