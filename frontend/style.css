@@ -13,3 +13,16 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+.map {
+    margin-top: 40px;
+}
+
+.level {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 200px;
+    font-size: 16px;
+}
+
