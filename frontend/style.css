@@ -14,40 +14,105 @@ button {
     cursor: pointer;
 }
 
-.map {
-    margin-top: 40px;
+.map{
+position: relative;
+width: 400px;
+margin: 50px auto;
+height: 500px;
 }
 
-.level {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
-    width: 200px;
-    font-size: 16px;
+.level{
+position: absolute;
+width: 70px;
+height: 70px;
+background-color: #4CAF50;
+color: white;
+font-size: 24px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+cursor: pointer;
+transition: transform 0.2s;
+}
+
+.level:hover{
+transform: scale(1.1);
 }
 
 .answers{
-    margin-top:20px;
+margin-top:20px;
 }
 
 .answer{
-    display:block;
-    margin:10px auto;
-    padding:12px;
-    width:200px;
-    font-size:16px;
+display:block;
+margin:10px auto;
+padding:12px;
+width:200px;
+font-size:16px;
 }
 
 .fox-container{
-    margin-top:20px;
+margin-top:20px;
 }
 
 .fox{
-    width:150px;
+width:150px;
 }
 
 #word{
-    font-size: 120px;
-    margin: 20px 0;
-    text-align: center;
+font-size:100px;
+margin:20px 0;
+text-align:center;
+}
+
+.locked{
+opacity:0.4;
+pointer-events:none;
+}
+
+#level1{
+top: 20px;
+left: 160px;
+}
+
+#level2{
+top: 120px;
+left: 60px;
+}
+
+#level3{
+top: 220px;
+left: 260px;
+}
+
+#level4{
+top: 320px;
+left: 100px;
+}
+
+#level5{
+top: 420px;
+left: 200px;
+}
+
+#fox-map{
+position: absolute;
+width: 80px;
+top: 80px;
+left: 220px;
+transition: all 0.5s;
+}
+
+#fox-dialogue{
+position:absolute;
+background:white;
+padding:12px;
+border-radius:10px;
+width:200px;
+font-size:14px;
+top:20px;
+left:260px;
+box-shadow:0 2px 6px rgba(0,0,0,0.2);
 }
